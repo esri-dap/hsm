@@ -14,4 +14,7 @@ import { OverviewComponent } from './overview.component';
       OverviewComponent,
     ],
   })
-  export class OverviewModule { }
+  export class OverviewModule {
+
+  }
+  
