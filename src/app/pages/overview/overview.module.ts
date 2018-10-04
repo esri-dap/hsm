@@ -4,6 +4,8 @@ import { NgxEchartsModule } from 'ngx-echarts';
 
 import { ThemeModule } from '../../@theme/theme.module';
 import { OverviewComponent } from './overview.component';
+import { ButtonShortcutComponent } from './button-shortcut/button-shortcut.component';
+import { ActivityLogsRecentComponent } from './logs-recent/logs-recent.component';
 
 @NgModule({
     imports: [
@@ -12,9 +14,10 @@ import { OverviewComponent } from './overview.component';
     ],
     declarations: [
       OverviewComponent,
+      ButtonShortcutComponent,
+      ActivityLogsRecentComponent,
     ],
   })
   export class OverviewModule {
 
   }
-  
